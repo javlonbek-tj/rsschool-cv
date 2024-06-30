@@ -32,3 +32,34 @@ I am passionate about learning new technologies. Initially, I started with backe
 - SQL(Postgresql, Prisma, Sequelize)
 
 ---
+
+### Code example:
+
+**Question**: Write a JavaScript function that takes an array of integers and returns the maximum number from the array.
+
+```javascript
+function findMax(arr) {
+  return arr.length === 0 ? null : Math.max(...arr);
+}
+
+// Example usage:
+const numbers = [3, 5, 7, 2, 8, 1];
+console.log(findMax(numbers)); // Output: 8
+```
+
+---
+
+### Courses:
+
+- [HTML and CSS Course by Jonas](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) ([completed](https://www.udemy.com/certificate/UC-0c778b20-1205-4959-a7c4-91133efa7278/))
+- [Advanced HTML and CSS Course by Jonas ](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) ([completed](https://www.udemy.com/certificate/UC-1966ef79-7718-4030-8dd1-3ea0d713324e/))
+- [RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)](https://rs.school/courses/javascript-preschool-ru)
+- [JavaScript Course by Jonas (in progress)](https://www.udemy.com/course/the-complete-javascript-course)
+
+---
+
+### Languages
+
+- English - Intermediate/Upper-intermediate
+- Russian - Intermediate
+- Uzbek - Native
