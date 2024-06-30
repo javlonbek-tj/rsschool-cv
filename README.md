@@ -1,1 +1,1 @@
-# rsschool-cv
+https://javlonbek-tj.github.io/rsschool-cv/cv
