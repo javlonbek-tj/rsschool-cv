@@ -7,13 +7,14 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
     <title>CV / Javlonbek</title>
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
-        <nav class="nav">
+      <nav class="nav-container">
+        <div class="nav-menu" id="nav-menu">
           <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
@@ -21,8 +22,16 @@
             <li class="nav-item"><a href="#skills" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
           </ul>
-        </nav>
-      </div>
+
+          <!-- Close button -->
+          <div class="nav-close" id="nav-close">
+            <i class="fa-solid fa-x nav-icon"></i>
+          </div>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars nav-icon"></i>
+        </div>
+      </nav>
     </header>
 
     <!-- Main -->
