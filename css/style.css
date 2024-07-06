@@ -32,7 +32,7 @@ ul {
 
 .main {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.075);
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 20px auto;
 }
 
@@ -40,7 +40,7 @@ ul {
   font-size: 22px;
   color: #2b8a3e;
   letter-spacing: 4px;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
 }
 
 /*  Section-summary */
@@ -61,9 +61,9 @@ ul {
 .section-item {
   position: relative;
   display: flex;
-  gap: 4px;
+  gap: 8px;
   font-size: 18px;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 .section-item::after {
@@ -79,13 +79,17 @@ ul {
   z-index: 0;
 }
 
-.section-item span {
+.section-item span,
+.section-item-link {
   color: #2b8a3e;
 }
 
 /* Header */
 
 .header {
+  position: sticky;
+  top: 0;
+  left: 0;
   background-color: #4b274b;
 }
 
@@ -119,7 +123,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 45px;
+  padding: 20px 30px;
   background-color: #4b274b;
 }
 
@@ -153,7 +157,7 @@ ul {
 
 .contacts {
   grid-column: 1/-1;
-  padding: 20px 45px;
+  padding: 20px 30px;
   background-color: #311330;
   color: #ffffff;
 }
@@ -161,7 +165,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 12px;
-  column-gap: 45px;
+  column-gap: 30px;
 }
 
 .contacts-item {
@@ -174,8 +178,76 @@ ul {
 .main-info {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 20px 45px;
-  gap: 45px;
+  padding: 20px 30px;
+  gap: 30px;
 }
 
+/* Section code */
 
+.code-wrapper {
+  position: relative;
+  background-color: #f1f0f0;
+  padding: 2px 20px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.code-block {
+  font-family: Courier, monospace;
+  font-size: 16px;
+  color: #333333;
+}
+
+.copy-icon,
+.copied-text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.copied-text {
+  display: none;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 500;
+}
+
+/* Section education */
+
+.education-text,
+.language-text {
+  font-size: 18px;
+  padding-bottom: 14px;
+}
+
+/* Footer */
+
+.footer {
+  font-size: 18px;
+  background-color: #4b274b;
+  color: #ffffff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 6vh;
+}
+
+.footer-year {
+  margin-right: 10px;
+}
+
+.rss {
+  display: inline-block;
+  width: 250px;
+  min-height: 4vh;
+  background-image: url("../assets/icons/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

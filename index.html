@@ -20,12 +20,12 @@
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
+    <!-- Main -->
     <main class="main">
       <section class="section profile" id="profile">
         <div class="profile-title">
@@ -88,7 +88,7 @@
           <h2 class="section-title">Skills</h2>
           <ul class="section-list">
             <li class="section-item">
-              <p class="section-item-name">Web development:</p>
+              <p class="section-item-name">Web:</p>
               <span>HTML5, CSS3, Javascript, Typescript</span>
             </li>
             <li class="section-item">
@@ -119,33 +119,83 @@
           <ul class="section-list">
             <li class="section-item">
               <p class="section-item-name">Udemy:</p>
-              <span>HTML5, CSS3, Javascript, Typescript</span>
+              <span>Advanced CSS and SASS</span>
             </li>
             <li class="section-item">
-              <p class="section-item-name">Frameworks and libraries:</p>
-              <span>React, ExpressJs</span>
+              <p class="section-item-name">Zero to Mastery:</p>
+              <span>Advanced Javascript</span>
             </li>
             <li class="section-item">
-              <p class="section-item-name">Version control:</p>
-              <span>Git, GitHub</span>
+              <p class="section-item-name">Udemy:</p>
+              <span>Node.js, Express, MongoDB</span>
             </li>
             <li class="section-item">
-              <p class="section-item-name">Databases:</p>
-              <span>MongoDB, PostgreSql</span>
+              <p class="section-item-name">Net Ninja:</p>
+              <span>Modern Javascript</span>
             </li>
             <li class="section-item">
-              <p class="section-item-name">Graphics:</p>
-              <span>Figma</span>
-            </li>
-            <li class="section-item">
-              <p class="section-item-name">ORMs:</p>
-              <span>Sequelize, Prisma, TypeOrm</span>
+              <p class="section-item-name">Udemy:</p>
+              <span>NestJs(Stephen Grider)</span>
             </li>
           </ul>
         </section>
+
+        <section class="section code" id="code">
+          <h2 class="section-title">Code</h2>
+          <div class="code-wrapper">
+            <i class="fa-regular fa-copy copy-icon" id="copy-icon"></i>
+            <span class="copied-text" id="copied-text">Copied!</span>
+            <pre class="pre">
+            <code class="code-block" id="code-block">
+function allPositive(arr) {
+  for (let num of arr) {
+    if (num <= 0) return false;
+  }
+  return true;
+}
+            </code>
+          </pre>
+          </div>
+        </section>
+
+        <section class="section projects" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <a href="https://kunuzmine.netlify.app" class="section-item-link">Kun.uz</a>
+            </li>
+            <li class="section-item">
+              <a href="https://github.com/javlonbek-tj/Blog-API" class="section-item-link">Blog API</a>
+            </li>
+            <li class="section-item">
+              <a href="https://github.com/javlonbek-tj/E-commerce" class="section-item-link">E-Commerce</a>
+            </li>
+            <li class="section-item">
+              <a href="https://github.com/javlonbek-tj/UzElon" class="section-item-link">UzElon</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section education" id="education">
+          <h2 class="section-title">Education and Languages</h2>
+          <p class="education-text">Tashkent State Transport University</p>
+          <p class="language-text">English: B2-Intermediate</p>
+          <p class="language-text">Russian: B2-Intermediate</p>
+          <p class="language-text">Uzbek: Native</p>
+        </section>
       </div>
     </main>
-    <main></main>
-    <footer></footer>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container footer-container">
+        <div>
+          <span class="footer-year">&copy; 2024</span>
+          <a href="https://github.com/javlonbek-tj" class="github-link">javlonbek-tj</a>
+        </div>
+        <a href="https://rs.school/courses/javascript-preschool-ru" class="rss"></a>
+      </div>
+    </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>
