@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/icons/avatar.ico" sizes="32x32" />
-    <link rel="manifest" href="/manifest.webmanifest" />
-    <link rel="stylesheet" href="./css/all.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/queries.css" />
-    <title>CV / Javlonbek</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icons/avatar.ico" sizes="32x32">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/queries.css">
+    <title>CV Javlonbek</title>
   </head>
   <body>
     <!-- Header -->
@@ -59,11 +59,11 @@
             src="./assets/images/avatar.jpg"
             alt="Avatar image"
             class="profile-img"
-          />
+         >
         </div>
       </section>
 
-      <section class="section contacts" id="contacts">
+      <div class="contacts" id="contacts">
         <div class="contacts-info">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -109,7 +109,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
 
       <div class="main-info">
         <section class="section summary" id="summary">
@@ -189,7 +189,7 @@
             <code class="code-block" id="code-block">
 function allPositive(arr) {
   for (let num of arr) {
-    if (num <= 0) return false;
+    if (num &lt;= 0) return false;
   }
   return true;
 }

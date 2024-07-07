@@ -33,7 +33,8 @@ ul {
   margin: 2rem auto;
 }
 
-.section {
+.section,
+.contacts {
   scroll-margin-top: 8vh;
 }
 
