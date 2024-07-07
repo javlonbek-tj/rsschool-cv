@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Rubik";
-  src: url("assets/fonts/Rubik.ttf");
+  font-family: 'Rubik';
+  src: url('assets/fonts/Rubik.ttf');
 }
 * {
   padding: 0;
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   background-color: #f7f7f7;
 }
 
@@ -31,6 +31,10 @@ ul {
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.075);
   max-width: 100rem;
   margin: 2rem auto;
+}
+
+.section {
+  scroll-margin-top: 8vh;
 }
 
 .section-title {
@@ -64,7 +68,7 @@ ul {
 }
 
 .section-item::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 50%;
@@ -88,6 +92,7 @@ ul {
   top: 0;
   left: 0;
   background-color: #4b274b;
+  z-index: 100;
 }
 
 .nav-container {
@@ -95,16 +100,15 @@ ul {
   justify-content: flex-end;
   align-items: center;
   max-width: 144rem;
-  margin: 0 auto;
-  padding-right: 2rem;
   min-height: 8vh;
+  margin: 0 auto;
+  padding: 1rem 5%;
 }
 
 .nav-list {
   display: flex;
   column-gap: 2.5rem;
   align-items: center;
-  padding: 2rem;
   list-style: none;
 }
 
@@ -184,6 +188,7 @@ ul {
   padding: 2rem 3rem;
   background-color: #311330;
   color: #ffffff;
+  z-index: 99;
 }
 .contacts-list {
   display: grid;
@@ -260,8 +265,10 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 6vh;
+  max-width: 144rem;
+  min-height: 7vh;
   padding-left: 5%;
+  padding-right: 5%;
 }
 
 .footer-year {
@@ -270,9 +277,9 @@ ul {
 
 .rss {
   display: inline-block;
-  width: 25rem;
+  width: 10rem;
   min-height: 4vh;
-  background-image: url("../assets/icons/rss.svg");
+  background-image: url('../assets/icons/rss.svg');
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
